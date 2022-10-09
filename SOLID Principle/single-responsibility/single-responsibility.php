@@ -5,12 +5,27 @@
 	 */
 	class ImageHandler
 	{
+
+		/**
+     		* @var string $image
+     	*/
 		protected $image;
+
+		/**
+         	* Class constructor.
+        	*
+        */
 
 		public function __construct($image)
 		{
 			$this->image = $image;
 		}
+
+		/**
+         * validate image.
+         *
+         * @param string $owner The deposit owner name.
+         */
 
 		public function validate()
 		{
